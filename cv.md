@@ -24,6 +24,10 @@ I am SEO specialist. I don't have experience as a programmer. I've made up a cou
 
 ## Code examples and completed assignments
 
+I love Fibonacci numbers in general, but I must admit I love some more than others.
+
+I would like for you to write me a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.
+
 `function nthFibo(n) {
   
   if(n === 0) {
