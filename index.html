@@ -5,12 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>CV RSS</title>
 </head>
 <body>
     <div class="content-wrap">
 
         <header>
+
+            <nav>
+                <div class="brg-menu">
+
+                    <div class="brg-menu-open d-block">
+                        <svg width="32" height="18" viewBox="0 0 32 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="2" fill="white"/>
+                            <rect y="8" width="32" height="2" fill="white"/>
+                            <rect y="16" width="32" height="2" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="brg-menu-close d-none">
+                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L26 25.943" stroke="#030303"/>
+                            <path d="M26 1L1 25.943" stroke="#030303"/>
+                        </svg>
+                    </div>
+                    
+                </div>
+
+                <ul class="mobile-menu">
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#work-experience">Work experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+
+                <ul class="main-menu">
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#work-experience">Work experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+
             <h1>Contact Information</h1>
 
             <img src="https://sun1.velcom-by-minsk.userapi.com/s/v1/ig2/BpHM6QlX79i4jDbLRWppzkLit4mqDRf7WzAApcmSqhL2AkRmSrsrt7gjiVwansyAn3Q7PdEevf4Adctfx6xSC_Hm.jpg?size=200x0&amp;quality=96&amp;crop=2,0,427,427&amp;ava=1" alt="Avatar">
@@ -19,16 +56,16 @@
                 <li><b>Name:</b> Henadzi</li>
                 <li><b>Surname:</b> Rudchenko</li>
                 <li><b>Age:</b> 27</li>
-                <li>Mobile phone: +375291236739</li>
+                <li>Mobile phone: <a href="tel:+375291236739">+375291236739</a></li>
                 <li>Telegram: <a href="https://t.me/henadzi_r" target="_blank">https://t.me/henadzi_r</a></li>
             </ul>
         </header>
 
         <main>
         
-        <h1>Personal information</h1>
+        <h2>Personal information</h2>
 
-        <h2>Skills</h2>
+        <h3 id="skills">Skills</h3>
 
         <p>I know html and css from front-end development. Before the introduction of flexbox I often used the boostrap framework, but I don’t use bootstrap now. I have basic knowledge of the MODX CMS system. I don’t have programming skills. I am self-educating (I am always looking for something new, I like studying.). My level of English is Elementary.</p>
         
@@ -39,14 +76,14 @@
             <li>MODX</li>
         </ul>
 
-        <h2>Work experience</h2>
+        <h3 id="work-experience">Work experience</h3>
         
         <p>I am SEO specialist. I don't have experience as a programmer. I've made up a couple of simple web sites for me and my friends.</p>
         
         </main>
 
         <section>
-        <h2>Education</h2>
+        <h3 id="education">Education</h3>
             <aside>
                 <ul>
                     <li>Minsk State College of Electronics</li>
@@ -56,12 +93,47 @@
             </aside>
         </section>
 
-        <footer>
-        <h1>Code examples and completed assignments</h1>
+
+        <h3>Code examples and completed assignments</h3>
         
-        <p><i>There is nothing here so far. <a href="https://github.com/RudchenkoHenadzi" target="_blank">My GitHub</a></i></p>
+        <p>Task: I love Fibonacci numbers in general, but I must admit I love some more than others.</p>
+        <p>I would like for you to write me a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.</p>
+        <pre>
+        <code>
+        function nthFibo(n) {
+
+            if(n === 0) {
+                return 0;
+            }
+            
+            let a = 0;
+            let b = 1;
+            let c = a + b;
+            let d;
+            
+            for(let i = 0; i < n; i++) {
+                d = a;
+                c = a + b;
+                a = b;
+                b = c;
+            }
+            
+            return d;
+            
+            }
+        </code>
+        </pre>
+
+        <h3>English</h3>
+        <p>A1 Elementary</p>
+
+        <footer>
+            <p><img src="img/rs_school_js.svg" alt="logotip"></p>
+            <p>&copy; 2021</p>
+            <p><a href="https://github.com/RudchenkoHenadzi" target="_blank">Visit my GitHub</a></p>
+            
         </footer>
     </div>
-
+    <script src="main.js"></script>
 </body>
 </html>
