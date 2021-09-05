@@ -24,4 +24,24 @@ I am SEO specialist. I don't have experience as a programmer. I've made up a cou
 
 ## Code examples and completed assignments
 
-*There is nothing here so far.*
+`function nthFibo(n) {
+  
+  if(n === 0) {
+    return 0;
+  }
+  
+  let a = 0;
+  let b = 1;
+  let c = a + b;
+  let d;
+  
+  for(let i = 0; i < n; i++) {
+      d = a;
+      c = a + b;
+      a = b;
+      b = c;
+  }
+  
+  return d;
+  
+}`
