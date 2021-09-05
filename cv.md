@@ -28,7 +28,7 @@ I love Fibonacci numbers in general, but I must admit I love some more than othe
 
 I would like for you to write me a function that when given a number (n) returns the n-th number in the Fibonacci Sequence.
 
-`function nthFibo(n) {
+```function nthFibo(n) {
   
   if(n === 0) {
     return 0;
@@ -48,4 +48,4 @@ I would like for you to write me a function that when given a number (n) returns
   
   return d;
   
-}`
+}```
