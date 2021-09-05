@@ -1,0 +1,37 @@
+body {
+    color: #24292e;
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 7px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  li {
+    margin-bottom: 4px;
+  }
+  
+  .content-wrap {
+    max-width: 980px;
+    margin: 0px auto;
+    padding: 40px 0px;
+  }
+  .content-wrap ul.about-us-wrap {
+    list-style-type: none;
+    padding: 0;
+  }
+  .content-wrap ul.about-us-wrap li {
+    margin-bottom: 4px;
+  }
+  .content-wrap a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .content-wrap a:hover {
+    text-decoration: underline;
+  }
