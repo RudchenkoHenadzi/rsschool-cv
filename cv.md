@@ -1,22 +1,22 @@
 # Contact Information
 
-**Name:** Henadzi  
-**Surname:** Rudchenko  
-**Age:** 27  
+**Name:** Henadzi
+**Surname:** Rudchenko
+**Age:** 27
 
-Mobile phone: +375291236739  
-Telegram: https://t.me/henadzi_r  
+Mobile phone: +375291236739
+Telegram: https://t.me/henadzi_r
 
-# Personal information  
-## Skills  
+# Personal information
+## Skills
 
 I know html and css from front-end development. Before the introduction of flexbox I often used the boostrap framework, but I don’t use bootstrap now. I have basic knowledge of the MODX CMS system. I don’t have programming skills. I am self-educating (I am always looking for something new, I like studying.). My level of English is Elementary.
 
-## Work experience  
+## Work experience
 
 I am SEO specialist. I don't have experience as a programmer. I've made up a couple of simple web sites for me and my friends.
 
-## Education  
+## Education
 
 * Minsk State College of Electronics
 * "IT Step Academy" - modern web technology courses
