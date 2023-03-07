@@ -2,19 +2,34 @@
 
 **Name:** Henadzi  
 **Surname:** Rudchenko  
-**Age:** 27  
+**Age:** 29
 
 Mobile phone: +375291236739  
 Telegram: https://t.me/henadzi_r  
 
-# Personal information  
-## Skills  
+# About Me
 
-I know html and css from front-end development. Before the introduction of flexbox I often used the boostrap framework, but I don’t use bootstrap now. I have basic knowledge of the MODX CMS system. I don’t have programming skills. I am self-educating (I am always looking for something new, I like studying.). My level of English is Elementary.
+## My goal
+
+I want get new skills in JS. 
 
 ## Work experience  
 
-I am SEO specialist. I don't have experience as a programmer. I've made up a couple of simple web sites for me and my friends.
+I have a little less than a year of frontend developer experience in a small company. I also developed small websites for my friends and acquaintances.
+
+### Examples of work
+
+* https://rolling-scopes-school.github.io/rudchenkohenadzi-JSFEPRESCHOOL2022Q2/travel/
+* https://rolling-scopes-school.github.io/rudchenkohenadzi-JSFE2021Q3/momentum/
+* https://rolling-scopes-school.github.io/rudchenkohenadzi-JSFE2021Q3/museum/
+* https://rolling-scopes-school.github.io/rudchenkohenadzi-JSFE2021Q3/art-quiz/index.html
+
+## My Skills
+
+* HTML
+* CSS
+* JS
+* VUE
 
 ## Education  
 
