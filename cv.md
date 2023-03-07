@@ -4,8 +4,8 @@
 **Surname:** Rudchenko  
 **Age:** 29
 
-Mobile phone: +375291236739  
-Telegram: https://t.me/henadzi_r  
+Mobile phone: +375291236739
+Telegram: https://t.me/henadzi_r
 
 # About Me
 
@@ -13,7 +13,7 @@ Telegram: https://t.me/henadzi_r
 
 I want get new skills in JS. 
 
-## Work experience  
+## Work experience
 
 I have a little less than a year of frontend developer experience in a small company. I also developed small websites for my friends and acquaintances.
 
@@ -31,7 +31,7 @@ I have a little less than a year of frontend developer experience in a small com
 * JS
 * VUE
 
-## Education  
+## Education
 
 * Minsk State College of Electronics
 * "IT Step Academy" - modern web technology courses
